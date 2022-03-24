@@ -26,7 +26,7 @@ requirements:
     - openpyxl
     - pandas
     - parsimonious
-    - progressbar
+    - progressbar2
     - python >=3.7
     - regex
     - scipy
