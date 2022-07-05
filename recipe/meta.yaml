@@ -23,9 +23,11 @@ requirements:
     - black
     - chardet
     - lxml
+    - numpy
     - openpyxl
     - pandas
     - parsimonious
+    - portion
     - progressbar2
     - python >=3.7
     - regex
