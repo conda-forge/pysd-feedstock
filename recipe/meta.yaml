@@ -11,7 +11,7 @@ source:
   sha256: c946c9308536e38c5d6c97375a6417efbad104f99757e878f636c6cea7afc85e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,7 +26,7 @@ requirements:
     - numpy
     - openpyxl
     - pandas
-    - parsimonious
+    - parsimonious ==0.9.0
     - portion
     - progressbar2
     - python >=3.7
