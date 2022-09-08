@@ -1,7 +1,7 @@
 About pysd
 ==========
 
-Home: https://github.com/JamesPHoughton/pysd
+Home: https://github.com/SDXorg/pysd
 
 Package license: MIT
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysd-feedstock/
 
 Summary: System Dynamics Modeling in Python
 
-Development: https://github.com/JamesPHoughton/pysd
+Development: https://github.com/SDXorg/pysd
 
 Documentation: https://pysd.readthedocs.io/
 
