@@ -1,11 +1,11 @@
-About pysd
-==========
+About pysd-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SDXorg/pysd
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysd-feedstock/blob/main/LICENSE.txt)
 
 Summary: System Dynamics Modeling in Python
 
