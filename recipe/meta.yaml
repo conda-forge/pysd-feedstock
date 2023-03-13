@@ -1,5 +1,5 @@
 {% set name = "pysd" %}
-{% set version = "3.9.0" %}
+{% set version = "3.9.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pysd-{{ version }}.tar.gz
-  sha256: 46406333a0c9f2c0de1540ea24fcc0e648c139f9b7a5bc41bc3e3eaf39277676
+  sha256: 191a9c20b44e65d9fd7c5ab29dcc2a00fda5545c3920074c7cb6c01de8782f4c
 
 build:
   number: 0
@@ -23,10 +23,10 @@ requirements:
     - black
     - chardet
     - lxml
-    - numpy
-    - openpyxl
+    - numpy <1.24
+    - openpyxl <3.1
     - pandas
-    - parsimonious <=0.9.0
+    - parsimonious
     - portion
     - progressbar2
     - python >=3.7
