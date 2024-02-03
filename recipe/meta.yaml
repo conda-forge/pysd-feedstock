@@ -11,7 +11,7 @@ source:
   sha256: 1949818e5f9cdc33403418d9ba3e6c5866c5251077a5d0f7a2ae736a9d21aedd
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
     - black
     - chardet
     - lxml
-    - numpy <1.24
+    - numpy >=1.23
     - openpyxl >=3.1
     - pandas
     - parsimonious
