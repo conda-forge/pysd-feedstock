@@ -24,7 +24,7 @@ requirements:
     - chardet
     - lxml
     - numpy >=1.23
-    - openpyxl >=3.1
+    - openpyxl >=3.1.2
     - pandas
     - parsimonious
     - portion
@@ -32,7 +32,7 @@ requirements:
     - python >=3.9
     - regex
     - scipy
-    - xarray >=2023.09
+    - xarray >=2023.9
     - xlrd
 
 test:
