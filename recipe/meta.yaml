@@ -1,5 +1,5 @@
 {% set name = "pysd" %}
-{% set version = "3.14.2" %}
+{% set version = "3.14.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pysd-{{ version }}.tar.gz
-  sha256: aa534b1515f87bb1cc03fdd9d136538dab214312eb9414a4302b1d01f0dc81a9
+  sha256: bc073a1d3bda1557455cfca9e0440ed41ae620cebc62b264a15ed1864df05c87
 
 build:
   number: 0
